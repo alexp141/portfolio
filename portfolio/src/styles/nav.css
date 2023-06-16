@@ -1,0 +1,30 @@
+
+.navbar-c {
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+}
+
+.logos {
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    align-items: center;
+    flex: 3;
+    margin-left: 2rem;
+}
+.logos img {
+    max-height: 50%;
+}
+.navbar {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--soft-white);
+}
