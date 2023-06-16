@@ -11,9 +11,9 @@ function Nav() {
             </div>
 
             <nav className='navbar'>
-                <a href="google.com">About</a>
-                <a href="google.com">Projects</a>
-                <a href="google.com">Contact</a>
+                <a href="google.com"><button type='button' className='nav-btn'>About</button></a>
+                <a href="google.com"><button type='button' className='nav-btn'>Projects</button></a>
+                <a href="google.com"><button type='button' className='nav-btn'>Contact</button></a>
             </nav>
         </div>
     )
