@@ -1,4 +1,5 @@
 import githubLogo from './assets/github-mark/github-mark-white.svg'
+import linkedInIcon from './assets/linkedin-icon.svg'
 import './styles/nav.css'
 
 function Nav() {
@@ -6,8 +7,7 @@ function Nav() {
         <div className="navbar-c">
             <div className="logos">
                 <img src={githubLogo} alt='github logo' />
-                <img src={githubLogo} alt='github logo' />
-                <img src={githubLogo} alt='github logo' />
+                <img src={linkedInIcon} alt='github logo' />
             </div>
 
             <nav className='navbar'>

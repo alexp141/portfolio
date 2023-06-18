@@ -1,11 +1,13 @@
 import Nav from "../Nav"
+import AboutMain from "./AboutMain"
+import '../styles/About.css'
 
 function About() {
 
     return (
         <div id="about">
             <Nav />
-            <h1>About</h1>
+            <AboutMain />
         </div>
     )
 }
