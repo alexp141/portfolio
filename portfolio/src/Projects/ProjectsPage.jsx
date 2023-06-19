@@ -1,12 +1,13 @@
 import Nav from "../Nav"
+import ProjectsMain from "./ProjectsMain"
 
 function ProjectsPage() {
 
     return (
-        <>
+        <div className="projects-page-c">
             <Nav />
-            <h1>Projects page</h1>
-        </>
+            <ProjectsMain />
+        </div>
     )
 }
 

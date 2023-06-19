@@ -1,0 +1,6 @@
+.proj-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 12rem;
+    gap: 3rem;
+}

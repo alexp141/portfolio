@@ -1,0 +1,35 @@
+.proj-c {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkgray;
+    border-radius: 2%;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.proj-c img {
+    max-height: 50%;
+    width: auto;
+}
+
+.proj-heading {
+    display: flex;
+    padding: 0 1rem;
+}
+
+.proj-name-c {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 3;
+}
+
+.proj-links-c {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+.proj-desc {
+    padding: 0 1rem;
+}
