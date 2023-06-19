@@ -1,7 +1,12 @@
+import Nav from "../Nav"
+
 function ProjectsPage() {
 
     return (
-        <h1>Projects page</h1>
+        <>
+            <Nav />
+            <h1>Projects page</h1>
+        </>
     )
 }
 

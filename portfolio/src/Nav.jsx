@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import githubLogo from './assets/github-mark/github-mark-white.svg'
 import linkedInIcon from './assets/linkedin-icon.svg'
 import './styles/nav.css'
@@ -11,9 +12,9 @@ function Nav() {
             </div>
 
             <nav className='navbar'>
-                <a href="google.com"><button type='button' className='nav-btn'>About</button></a>
-                <a href="google.com"><button type='button' className='nav-btn'>Projects</button></a>
-                <a href="google.com"><button type='button' className='nav-btn'>Contact</button></a>
+                <Link to="/"><button type='button' className='nav-btn'>About</button></Link>
+                <Link to="/projects"><button type='button' className='nav-btn'>Projects</button></Link>
+                <Link to="/contact"><button type='button' className='nav-btn'>Contact</button></Link>
             </nav>
         </div>
     )
