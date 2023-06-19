@@ -6,7 +6,7 @@ function AboutMain() {
         <div className="about-main-c">
             <div className="heading">
                 <h1 id='name'>Alexander Pastor</h1>
-                <h3 id='title'>2023 UMD Alumni</h3>
+                <h3 id='title'>UMD Computer Science Graduate</h3>
             </div>
             
 
