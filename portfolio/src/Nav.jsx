@@ -7,8 +7,8 @@ function Nav() {
     return (
         <div className="navbar-c">
             <div className="logos">
-                <img src={githubLogo} alt='github logo' />
-                <img src={linkedInIcon} alt='github logo' />
+                <Link to='https://www.google.com'><img src={githubLogo} alt='github logo' /></Link>
+                <Link to='https://www.google.com'><img src={linkedInIcon} alt='github logo' /></Link>
             </div>
 
             <nav className='navbar'>

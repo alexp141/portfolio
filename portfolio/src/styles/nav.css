@@ -14,9 +14,19 @@
     flex: 3;
     margin-left: 2rem;
 }
-.logos img {
-    max-height: 50%;
+
+.logos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
+
+.logos a img {
+    height: 80%;
+
+}
+
 .navbar {
     display: flex;
     gap: 1rem;
@@ -24,6 +34,7 @@
     align-items: center;
     flex: 1;
 }
+
 
 a {
     text-decoration: none;
