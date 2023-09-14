@@ -1,23 +1,23 @@
 import reactLogo from '../assets/react.svg'
 import githubLogo from '../assets/github-mark/github-mark.svg'
+import { Link } from 'react-router-dom'
 import '../styles/Project.css'
 
-function Project() {
+function Project({project}) {
 
     return (
         <div className="proj-c">
-            <img src={reactLogo} alt="React logo" />
+            <img src={project.imgSrc} alt="React logo" />
             <div className="proj-heading">
                 <div className="proj-name-c">
-                    <h2>Project Name</h2>
+                    <h2>{project.name}</h2>
                 </div>
                 <div className="proj-links-c">
-                    <img src={githubLogo} alt="Github logo"/>
+                <Link to={project.githubLink}><img src={githubLogo} alt='github logo' /></Link>
                 </div>
             </div>
             <div className="proj-desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione a non amet saepe numquam delectus dolor fugiat, suscipit vitae enim 
-                    perferendis dolorem magni maxime, aliquam, provident nostrum debitis? Veritatis!</p>
+                {project.description}
             </div>
         </div>
     )
