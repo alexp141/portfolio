@@ -10,7 +10,7 @@ function Project({project}) {
             <img src={project.imgSrc} alt="React logo" />
             <div className="proj-heading">
                 <div className="proj-name-c">
-                    <h2>{project.name}</h2>
+                    <h1>{project.name}</h1>
                 </div>
                 <div className="proj-links-c">
                 <Link to={project.githubLink}><img src={githubLogo} alt='github logo' /></Link>

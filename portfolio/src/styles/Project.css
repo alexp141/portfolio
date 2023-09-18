@@ -16,11 +16,20 @@
     padding: 0 1rem;
 }
 
+.proj-heading img {
+    height: 4em;
+    width: auto;
+}
+
 .proj-name-c {
     display: flex;
     justify-content: start;
     align-items: center;
     flex: 3;
+}
+
+.proj-name-c h2 {
+    font-size: 2em;
 }
 
 .proj-links-c {
