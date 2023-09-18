@@ -11,13 +11,13 @@ function AboutMain() {
             
 
             <div className="about">
-                <h1></h1>
+                <h1>About</h1>
                 <p id='summary'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto veniam modi laboriosam similique, quas nisi libero doloremque! Incidunt hic voluptatum iste, 
                     excepturi vitae in sit itaque similique iure, tempora id.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto veniam modi laboriosam similique, quas nisi libero doloremque! Incidunt hic voluptatum iste, 
                     excepturi vitae in sit itaque similique iure, tempora id.</p>
             </div>
             <div className="skills-c">
-                <h1></h1>
+                <h1>Experience with:</h1>
             </div>
         </div>
     )
