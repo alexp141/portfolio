@@ -38,7 +38,7 @@ const projects = [
         public: true,
         githubLink: 'https://github.com/alexp141/calculator',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: 'A simple calculator app that allows for basic calculations. Javascript was used to implement the logic of the calculator while CSS was used to style the page.'
 
     }, 
     {
