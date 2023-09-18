@@ -1,7 +1,7 @@
 
 .navbar-c {
     display: flex;
-    background-color: black;
+    background-color: var(--soft-black);
     padding: 1rem;
     max-height: 4rem;
 }
@@ -43,7 +43,7 @@ a {
 .nav-btn {
     border: 2px solid white;
     border-radius: 6em;
-    background-color: black;
+    background-color: var(--soft-black);
     font-size: 1rem;
     padding: .5rem  1.5rem;
     color: white;
@@ -52,6 +52,6 @@ a {
 .nav-btn:hover {
     border: 2px solid white;
     background-color: white;
-    color: black;
+    color: var(--soft-black);
     cursor: pointer;
 }
