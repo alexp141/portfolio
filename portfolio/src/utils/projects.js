@@ -47,7 +47,7 @@ const projects = [
         public: true,
         githubLink: 'https://github.com/alexp141/portfolio',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: 'This very website! Made using React.js and styled with CSS. This website acts as my work in progress portfolio and showcases my skills as a developer.'
 
     }, 
     {
