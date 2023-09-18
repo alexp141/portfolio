@@ -19,7 +19,9 @@ const projects = [
         public: false,
         githubLink: 'https://www.google.com',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: `Built using the SwiftUI and Mapkit frameworks. 
+        With a push of a button, the app tracks the user's current location and continuously records their route using map annotations. 
+        Uses Apple’s FileManager API to save recorded tracks to the user’s local storage efficiently.`
 
     }, 
     {
@@ -65,7 +67,8 @@ const projects = [
         public: true,
         githubLink: 'https://github.com/alexp141/chess',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: `A chess game built using Java with a fully functional GUI constructed with Java Swing.
+        Built using many object-oriented principles including encapsulation, inheritance, polymorphism, interfaces, abstract classes, etc.`
 
     }
 ]
