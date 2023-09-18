@@ -8,7 +8,9 @@ const projects = [
         public: true,
         githubLink: 'https://github.com/alexp141/recipe-app',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: `A recipe app that allows users to easily find recipes of their liking. 
+        This app allows users to create accounts and interact with other users by leaving comments on recipes, sharing recipes with friends, or creating and sharing their own recipes. 
+        Users can also save their favorite recipes for future reference.`
 
     },
     {
@@ -26,7 +28,8 @@ const projects = [
         public: true,
         githubLink: 'https://github.com/alexp141/cv-builder',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: `A CV builder created using React.js and styled with CSS. This website allows users to input information about themselves that they would like to share on their CV. 
+                        With each keystroke, the React components have their state mutated and the changes are reflected immediately on the CV preview page.`
 
     }, 
     {
