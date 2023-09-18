@@ -6,7 +6,7 @@ const projects = [
         name: 'Recipe App',
         imgSrc: swiftIcon,
         public: true,
-        githubLink: 'https://www.google.com',
+        githubLink: 'https://github.com/alexp141/recipe-app',
         previewLink: 'https://www.google.com',
         description: 'desc here'
 
@@ -33,7 +33,7 @@ const projects = [
         name: 'Calculator',
         imgSrc: reactIcon,
         public: true,
-        githubLink: 'https://www.google.com',
+        githubLink: 'https://github.com/alexp141/calculator',
         previewLink: 'https://www.google.com',
         description: 'desc here'
 
@@ -42,7 +42,7 @@ const projects = [
         name: 'Personal Portfolio Website',
         imgSrc: reactIcon,
         public: true,
-        githubLink: 'https://www.google.com',
+        githubLink: 'https://github.com/alexp141/portfolio',
         previewLink: 'https://www.google.com',
         description: 'desc here'
 
