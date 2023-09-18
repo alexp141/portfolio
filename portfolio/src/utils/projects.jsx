@@ -1,5 +1,7 @@
-import swiftIcon from '/Users/alexanderpastor/projects/portfolio/portfolio/src/assets/swift-icon.svg'
-import reactIcon from '/Users/alexanderpastor/projects/portfolio/portfolio/src/assets/react.svg'
+import swiftIcon from '../assets/swift-icon.svg'
+import reactIcon from '../assets/react.svg'
+import javaIcon from '../assets/java-icon.svg'
+import jsIcon from '../assets/js-icon.svg'
 import { Link } from 'react-router-dom'
 
 const projects = [
@@ -37,7 +39,7 @@ const projects = [
     }, 
     {
         name: 'Calculator',
-        imgSrc: reactIcon,
+        imgSrc: jsIcon,
         public: true,
         githubLink: 'https://github.com/alexp141/calculator',
         previewLink: 'https://www.google.com',
@@ -67,7 +69,7 @@ const projects = [
     },
     {
         name: 'Chess Game',
-        imgSrc: swiftIcon,
+        imgSrc: javaIcon,
         public: true,
         githubLink: 'https://github.com/alexp141/chess',
         previewLink: 'https://www.google.com',
