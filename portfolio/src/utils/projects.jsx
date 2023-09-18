@@ -1,5 +1,6 @@
 import swiftIcon from '/Users/alexanderpastor/projects/portfolio/portfolio/src/assets/swift-icon.svg'
 import reactIcon from '/Users/alexanderpastor/projects/portfolio/portfolio/src/assets/react.svg'
+import { Link } from 'react-router-dom'
 
 const projects = [
     {
@@ -58,7 +59,10 @@ const projects = [
         public: false,
         githubLink: 'https://www.google.com',
         previewLink: 'https://www.google.com',
-        description: 'desc here'
+        description: <p>An IOS game implemented based on the rules of <Link to='https://apps.apple.com/us/app/threes/id779157948'><p>Threes! on the app store.</p></Link> 
+        Made with SwiftUI.</p>
+        
+        
 
     },
     {
