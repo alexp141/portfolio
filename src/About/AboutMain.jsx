@@ -18,6 +18,7 @@ function AboutMain() {
             </div>
             <div className="skills-c">
                 <h1>Experience with:</h1>
+                <p>test</p>
             </div>
         </div>
     )
