@@ -6,7 +6,7 @@ import ProjectsPage from './Projects/ProjectsPage'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/portfolio/'}>
       <Routes>
         <Route path='/' element={<About />} />
         <Route path='/projects' element={<ProjectsPage />} />
