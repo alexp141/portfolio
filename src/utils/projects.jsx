@@ -28,13 +28,13 @@ const projects = [
 
     }, 
     {
-        name: 'CV Builder',
+        name: 'Resume Builder',
         imgSrc: reactIcon,
         public: true,
         githubLink: 'https://github.com/alexp141/cv-builder',
         previewLink: 'https://www.google.com',
-        description: `A CV builder created using React.js and styled with CSS. This website allows users to input information about themselves that they would like to share on their CV. 
-                        With each keystroke, the React components have their state mutated and the changes are reflected immediately on the CV preview page.`
+        description: `A resume builder created using React.js and styled with CSS. This website allows users to input information about themselves that they would like to share on their resume. 
+                        With each keystroke, the React components have their state mutated and the changes are reflected immediately on the resume preview page.`
 
     }, 
     {
