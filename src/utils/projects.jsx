@@ -1,5 +1,5 @@
 import swiftIcon from '../assets/swift-icon.svg'
-import reactIcon from '../assets/react.svg'
+import reactIcon from '../assets/react-icon.svg'
 import javaIcon from '../assets/java-icon.svg'
 import jsIcon from '../assets/js-icon.svg'
 import { Link } from 'react-router-dom'

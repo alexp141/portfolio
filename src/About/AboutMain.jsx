@@ -11,6 +11,7 @@ import cssIcon from '../assets/css-icon.svg'
 import gitIcon from '../assets/git-icon.svg'
 import intellijIcon from '../assets/intellij-icon.svg'
 import eclipseIcon from '../assets/eclipse-icon.svg'
+import firebaseIcon from '../assets/firebase-icon.svg'
 
 
 function AboutMain() {
@@ -19,7 +20,7 @@ function AboutMain() {
         <div className="about-main-c">
             <div className="heading">
                 <h1 id='name'>Alexander Pastor</h1>
-                <h3 id='title'>UMD Computer Science Graduate</h3>
+                <h3 id='title'>UMD Computer Science Alumni</h3>
             </div>
             
 
@@ -37,6 +38,7 @@ function AboutMain() {
                     <SkillsIcon imgSrc={jsIcon} alt={'javascript icon'} iconName={'Javascript'}/>
                     <SkillsIcon imgSrc={reactIcon} alt={'react icon'} iconName={'React'}/>
                     <SkillsIcon imgSrc={sqlIcon} alt={'sql icon'} iconName={'SQL'}/>
+                    <SkillsIcon imgSrc={firebaseIcon} alt={'firebase icon'} iconName={'Firebase'}/>
                     <SkillsIcon imgSrc={githubLogo} alt={'github icon'} iconName={'Github'}/>
                     <SkillsIcon imgSrc={htmlIcon} alt={'html icon'} iconName={'HTML'}/>
                     <SkillsIcon imgSrc={cssIcon} alt={'css icon'} iconName={'CSS'}/>
