@@ -1,0 +1,9 @@
+.footer-c {
+    display: flex;
+    background-color: var(--soft-black);
+    padding: 1rem;
+    max-height: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--soft-white);
+}

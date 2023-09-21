@@ -1,5 +1,6 @@
 import Nav from "../Nav"
 import AboutMain from "./AboutMain"
+import Footer from "../Footer"
 import '../styles/About.css'
 
 function About() {
@@ -8,6 +9,7 @@ function About() {
         <div id="about">
             <Nav />
             <AboutMain />
+            <Footer />
         </div>
     )
 }

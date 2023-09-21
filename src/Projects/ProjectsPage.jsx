@@ -1,3 +1,4 @@
+import Footer from "../Footer"
 import Nav from "../Nav"
 import ProjectsMain from "./ProjectsMain"
 
@@ -7,6 +8,7 @@ function ProjectsPage() {
         <div className="projects-page-c">
             <Nav />
             <ProjectsMain />
+            <Footer />
         </div>
     )
 }
