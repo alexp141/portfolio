@@ -17,10 +17,10 @@ const projects = [
 
     },
     {
-        name: 'Bikeride App',
+        name: 'Path-tracking App',
         imgSrc: swiftIcon,
         public: false,
-        githubLink: 'https://www.google.com',
+        githubLink: 'https://github.com/alexp141/path-tracking-app',
         previewLink: 'https://www.google.com',
         description: `Built using the SwiftUI and Mapkit frameworks. 
         With a push of a button, the app tracks the user's current location and continuously records their route using map annotations. 
@@ -36,16 +36,7 @@ const projects = [
         description: `A resume builder created using React.js and styled with CSS. This website allows users to input information about themselves that they would like to share on their resume. 
                         With each keystroke, the React components have their state mutated and the changes are reflected immediately on the resume preview page.`
 
-    }, 
-    {
-        name: 'Calculator',
-        imgSrc: jsIcon,
-        public: true,
-        githubLink: 'https://github.com/alexp141/calculator',
-        previewLink: 'https://www.google.com',
-        description: 'A simple calculator app that allows for basic calculations. Javascript was used to implement the logic of the calculator while CSS was used to style the page.'
-
-    }, 
+    },
     {
         name: 'Personal Portfolio Website',
         imgSrc: reactIcon,
@@ -55,6 +46,15 @@ const projects = [
         description: 'This very website! Made using React.js and styled with CSS. This website acts as my work in progress portfolio and showcases my skills as a developer.'
 
     }, 
+    {
+        name: 'Calculator',
+        imgSrc: jsIcon,
+        public: true,
+        githubLink: 'https://github.com/alexp141/calculator',
+        previewLink: 'https://www.google.com',
+        description: 'A simple calculator app that allows for basic calculations. Javascript was used to implement the logic of the calculator while CSS was used to style the page.'
+
+    },  
     {
         name: 'Threes Game',
         imgSrc: swiftIcon,
