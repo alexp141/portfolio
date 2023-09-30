@@ -59,7 +59,7 @@ const projects = [
         name: 'Threes Game',
         imgSrc: swiftIcon,
         public: false,
-        githubLink: 'https://www.google.com',
+        githubLink: 'https://github.com/alexp141/threes-game',
         previewLink: 'https://www.google.com',
         description: <p>An IOS game implemented based on the rules of <Link to='https://apps.apple.com/us/app/threes/id779157948'><p>Threes! on the app store.</p></Link> 
         Made with SwiftUI.</p>
